@@ -26,7 +26,6 @@ for code in codes:
     
     instStockChart.BlockRequest()
     
-
     numData = instStockChart.GetHeaderValue(3)
 
     for i in range(numData):
